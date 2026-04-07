@@ -1,10 +1,10 @@
-/* Reset básico */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Cabeçalho */
+
 .cabecalho {
   background-color: #333;
   padding: 10px;
@@ -16,7 +16,7 @@ body {
   margin: 0;
 }
 
-/* Navbar com Flexbox */
+
 .navbar {
   list-style-type: none;
   margin: 10px 0 0 0;
@@ -26,37 +26,37 @@ body {
   background-color: #333;
 }
 
-/* Cada item ocupa espaço igual */
+
 .navbar li {
   flex: 1;
 }
 
-/* Item do meio centralizado */
+
 .centro {
   margin: 0 auto;
 }
 
-/* Links do menu */
+
 .navbar li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 20px; /* botões maiores */
+  padding: 20px; 
   text-decoration: none;
-  font-size: 18px; /* texto maior */
+  font-size: 18px; 
 }
 
-/* Hover */
+
 .navbar li a:hover {
   background-color: #111;
 }
 
-/* Página ativa */
+
 .navbar li a.ativo {
   background-color: rgb(14, 0, 206);
 }
 
-/* Conteúdo principal */
+
 main {
   padding: 20px;
 }
