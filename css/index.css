@@ -1,54 +1,64 @@
-
+/* Reset básico */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-
+/* Cabeçalho */
 .cabecalho {
   background-color: #333;
   padding: 10px;
   text-align: center;
 }
 
-
 #titulo {
   color: yellow;
   margin: 0;
 }
 
-
+/* Navbar com Flexbox */
 .navbar {
   list-style-type: none;
-  margin: 0;
+  margin: 10px 0 0 0;
   padding: 0;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
   background-color: #333;
 }
 
-
+/* Cada item ocupa espaço igual */
 .navbar li {
-  float: left;
+  flex: 1;
 }
 
+/* Item do meio centralizado */
+.centro {
+  margin: 0 auto;
+}
+
+/* Links do menu */
 .navbar li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 20px; /* botões maiores */
   text-decoration: none;
+  font-size: 18px; /* texto maior */
 }
 
-
+/* Hover */
 .navbar li a:hover {
   background-color: #111;
 }
 
-
-.navbar::after {
-  content: "";
-  display: table;
-  clear: both;
+/* Página ativa */
+.navbar li a.ativo {
+  background-color: rgb(14, 0, 206);
 }
 
+/* Conteúdo principal */
+main {
+  padding: 20px;
+}
 
+/* Rodapé */

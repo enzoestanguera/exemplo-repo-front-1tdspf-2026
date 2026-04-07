@@ -7,19 +7,19 @@ body {
 /* Cabeçalho */
 .cabecalho {
   background-color: #333;
-  text-align: center;
   padding: 10px;
+  text-align: center;
 }
 
-.cabecalho h1 {
-  color: white;
+#titulo {
+  color: yellow;
   margin: 0;
 }
 
 /* Navbar com Flexbox */
 .navbar {
   list-style-type: none;
-  margin: 0;
+  margin: 10px 0 0 0;
   padding: 0;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@ body {
   flex: 1;
 }
 
-/* Item central */
+/* Item do meio centralizado */
 .centro {
   margin: 0 auto;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 /* Página ativa */
-.ativo {
+.navbar li a.ativo {
   background-color: rgb(14, 0, 206);
 }
 
@@ -61,10 +61,3 @@ main {
   padding: 20px;
 }
 
-/* Rodapé */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
