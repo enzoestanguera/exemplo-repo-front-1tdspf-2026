@@ -22,7 +22,7 @@ main{
     flex: 1;
 }
 
-/* HEADER */
+
 .cabecalho{
     background: #1f1f1f;
     color: white;
@@ -36,7 +36,6 @@ main{
     color: white;
 }
 
-/* NAVBAR */
 .navbar{
     list-style: none;
     display: flex;
@@ -59,7 +58,7 @@ main{
     border-bottom: 2px solid #888;
 }
 
-/* CONTEÚDO */
+
 section{
     max-width: 900px;
     margin: 40px auto;
@@ -81,7 +80,7 @@ section p{
     color: #555;
 }
 
-/* FOOTER */
+
 footer{
     background: #1f1f1f;
     color: #ccc;
